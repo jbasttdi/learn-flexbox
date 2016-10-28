@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	outline: none;
+}
+body {
+	margin: 50px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #33363A;
+    background-color: #fff;
+    overflow-y: scroll;
+    font-family: Raleway,Helvetica,sans-serif;
+}
+.tabs {
+	display: flex;
+	border-bottom: 1px solid #D7DBDD;
+}
+.tab {
+	cursor: pointer;
+	padding: 5px 30px;
+	color: #16A2D7;
+	font-size: 12px;
+	border-bottom: 2px solid transparent;
+}
+.tab.is-tab-selected {
+	border-bottom-color: #4EBBE4;
+}
